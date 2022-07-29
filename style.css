@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color:#111111;
+    font-family: 'Poppins',serif;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.items{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+}
+
+.item{
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1 img{
+    width: 420px;
+    margin-left: 120px;
+}
+
+.container-1 h4{
+    color: #c91b28;
+}
+
+.container-1 h1{
+    font-size: 50px;
+}
+
+.container-1 p{
+    padding-right: 280px;
+    padding-bottom: 30px;
+}
+
+.container-1 button{
+    background-color: #c91b28;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1e1e1e;
+    margin: 80px 15px;
+    padding: 30px;
+
+}
+
+.icons{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.one{
+    background-image: url(/assets/Product\ Design\ LandingPage.svg);
+    background-repeat: no-repeat;
+    background-position-x: -67px;
+    background-position-y: -113px;
+}
+
+.two{
+    background-image: url(/assets/Product\ Design\ LandingPage.svg);
+    background-repeat: no-repeat;
+    background-position-x: -442px;
+    background-position-y: -120px;
+}
+
+.three{
+    background-image: url(/assets/Product\ Design\ LandingPage.svg);
+    background-repeat: no-repeat;
+    background-position-x: -830px;
+    background-position-y: -125px;
+}
+
+.cart h3{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.cart p{
+    padding-bottom: 15px;
+}
+
+.cart h5{
+    color: #c91b28;
+}
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.sub-container-3{
+    padding-right: 50px;
+}
+
+.sub-container-3 h1{
+    font-size: 80px;
+    color: #c91b28;
+}
+
+.sub-container-3 h4{
+    font-size: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    margin: 5px;
+    padding: 10px 40px;
+}
+
+.flex h2{
+    color: #c91b28;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.container-4 p{
+    font-size: 12px;
+}
+
+.container-4 button{
+    background-color: #c91b28;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.container-5{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-new{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-new img{
+    width: 350px;
+    margin: 40px 15px;
+}
+
+.cart-new h4{
+    padding-left: 15px;
+}
+
+.cart-new h5{
+    padding-left: 15px;
+    color: #c91b28;
+    margin-bottom: 15px;
+}
+
+.project{
+    background-color: #1e1e1e;
+    margin: 10px;
+}
+
+.project1{
+    background-color: #1e1e1e;
+    margin: 10px;
+    padding: 18px 0px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer h1{
+    font-size: 30px;
+    padding: 30px;
+    margin-right: 150px;
+}
+
+.footer p{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    margin-right: 200px;
+}
+
+.footer button{
+    background-color: #c91b28;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Poppins';
+    margin-right: 30px;
+}
+
+.footer-bg{
+    background-color: #1e1e1e;
+    margin: 80px 280px;
+}
+
+.bottom-nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bottom-nav li{
+    margin-left: 20px;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 20px 150px;
+}
+
+.last img{
+    width: 100px;
+}
+
+
+.last-bg{
+    background-color: #1e1e1e;
+    padding: 20px 0px;
+}
+
+.last-icons{
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    background-image: url(/assets/Product\ Design\ LandingPage.svg);
+    background-repeat: no-repeat;
+    background-position-x: -380px;
+    background-position-y: -335px;
+}
+
